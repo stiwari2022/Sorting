@@ -1,0 +1,18 @@
+def Binary_Search(List, Number):
+  Chub=0
+  Chubni=len(List)-1
+  Done=False
+  while(Chub<=Chubni and not Done):
+    Chubster=(Chub+Chubni)//2
+    if List[Chubster]==Number :
+      Done=True
+    else:
+      if Number<List[Chubster]:
+        Chubni=Chubster-1
+      else:
+        Chub=Chubster+1
+  return Done
+
+
+
+print(Binary_Search([1,3,4,5,6], 2))
