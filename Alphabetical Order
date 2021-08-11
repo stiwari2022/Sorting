@@ -1,0 +1,9 @@
+Chub="Clouds rumbling in the sky; teeming rain.I sit on the river bank, sad and alone.The sheaves lie gathered, harvest has ended,The river is swollen and fierce in its flow. As we cut the paddy it started to rain."
+Chubni=Chub.replace(",", " ")
+Big_Chub=Chubni.replace(".", " ")
+Little_Chub=Big_Chub.replace(";", " ")
+Chubster=[Word.lower() for Word in Little_Chub.split()]
+Chubster.sort()
+print("The sorted words are:")
+for Word in Chubster:
+  print(Word)
