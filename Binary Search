@@ -4,7 +4,7 @@ def Binary_Search(List, Number):
   Done=False
   while(Chub<=Chubni and not Done):
     Chubster=(Chub+Chubni)//2
-    if List[Chubster]==Number :
+    if List[Chubster]==Number:
       Done=True
     else:
       if Number<List[Chubster]:
