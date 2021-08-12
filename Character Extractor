@@ -1,0 +1,17 @@
+def Sort(Chub):
+  Output=[0 for Chubni in range(len(Chub))]
+  Count=[0 for Chubni in range(11111)]
+  Chubster=["" for _ in Chub]
+  for Chubni in Chub:
+    Count[ord(Chubni)]+=1
+    for Chubni in range(11111):
+      Count[Chubni]+=Count[Chubni-1]
+    for Chubni in range(len(Chub)):
+      Output[Count[ord(Chub[Chubni])]-1]=Chub[Chubni]
+      Count[ord(Chub[Chubni])]-=1
+    for Chubni in range(len(Chub)):
+      Chubster[Chubni]=Output[Chubni]
+    return Chubster
+Chub="Mere namb chubster 2 point 0"
+Chubster=Sort(Chub)
+print("Sorted Letters:%s"%(" \n".join(Chubster)))
