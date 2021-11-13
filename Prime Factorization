@@ -1,18 +1,16 @@
 import math
-def Bubble_Guppy(Chub):
-  while Chub%2==0:
-    print (2)
+def PF(Chub):
+  while (Chub%2==0):
+    print (2),
     Chub=Chub/2
-  for Chubster in range(3,int(math.sqrt(Chub))+1,2):
-    while Chub%Chubster==0:
-      print (Chubster)
-      Chub=Chub/Chubster
-  if Chub>2:
+  for Chuble in range(3,int(math.sqrt(Chub))+1,2):
+    while (Chub%Chuble==0):
+      print (Chuble)
+      Chub=Chub/Chuble
+  if (Chub>2):
     print (Chub)
 
 
 
-
-
-n=315
-Bubble_Guppy(n)
+Chub=2310
+PF(Chub)
