@@ -1,0 +1,6 @@
+Chub=int(input("Enter a number: "))
+Chuble=[]
+for LI in range(1,Chub+1):
+  if Chub%LI==0:
+    Chuble.append(LI)
+print ("The factors of {} are {}".format(Chub,Chuble))
