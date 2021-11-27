@@ -1,10 +1,10 @@
-def Bubble_Sort(Chub):
-  for Chubni in range(len(Chub)-1,0,-1):
-    for Lorem_Ipsum in range(Chubni):
-      if Chub[Lorem_Ipsum]>Chub[Lorem_Ipsum+1]:
-        Chubster = Chub[Lorem_Ipsum]
-        Chub[Lorem_Ipsum] = Chub[Lorem_Ipsum+1]
-        Chub[Lorem_Ipsum+1] = Chubster
+def Bubble_Sort(Chubstering):
+  for Chubning in range(len(Chubstering)-1,0,-1):
+    for Lorem_Ipsuming in range(Chubning):
+      if Chubstering[Lorem_Ipsuming]>Chubstering[Lorem_Ipsuming+1]:
+        Chubsterling = Chubstering[Lorem_Ipsuming]
+        Chubstering[Lorem_Ipsuming] = Chubstering[Lorem_Ipsuming+1]
+        Chubstering[Lorem_Ipsuming+1] = Chubsterling
 Chub = [81, 61, 63, 70, 73, 97, 58, 15, 16, 5]
 Bubble_Sort(Chub)
 print(Chub)
