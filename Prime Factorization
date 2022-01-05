@@ -3,7 +3,7 @@ def PF(Chub):
   while (Chub%2==0):
     print (2),
     Chub=Chub/2
-  for Chuble in range(3,int(math.sqrt(Chub))+1,2):
+  for Chuble in range(3,int((Chub)**0.5)+1,2):
     while (Chub%Chuble==0):
       print (Chuble)
       Chub=Chub/Chuble
